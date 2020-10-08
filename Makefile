@@ -8,4 +8,3 @@ main.o: main.cpp
 
 function.o: function.cpp
 	g++ -c function.cpp
-
