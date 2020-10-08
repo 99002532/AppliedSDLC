@@ -39,15 +39,5 @@ int main ()
         default:
             break;
     }
-
-
-    // getNumbers(num1, num2);
-    // addNumbers(num1, num2, Result);
-    // divideNumbers(num1, num2, Result);
-    // subtractNumbers(num1, num2, Result);
-    // multiplyNumbers(num1, num2, Result);
-    // //displayResults(num1, num2, Result);
-    // getSquareRoot(num1);
-
     
 }
