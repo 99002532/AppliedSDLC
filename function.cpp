@@ -11,6 +11,7 @@ cout<<" 2. DIVIDE" <<endl;
 cout<<" 3. SUBTRACT" <<endl;
 cout<<" 4. MULTIPLY" <<endl;
 cout<<" 5. SQUAREROOT" <<endl;
+cout<<" CTRL+C to exit" <<endl;
 }
 
  
