@@ -1,21 +1,18 @@
+
+CC=g++
+CFLAGS=-c -wall
+
 all: calculator
 
 calculator: main.o function.o
-	g++ main.o function.o -o calculator
+	$(CC) main.o function.o -o calculator
 
 main.o: main.cpp
-	g++ -c main.cpp
+	$(CC) $(CFLAGS) main.cpp
 
 function.o: function.cpp
-	g++ -c function.cpp
+	$(CC) $(CFLAGS) function.cpp
 
-# CC=g++
-# CFLAGS=-I.
-# DEPS = hellomake.h
-# OBJ = hellomake.o hellofunc.o
+clean:
+	rm -rf *o hello
 
-# %.o: %.c $(DEPS)
-# 	$(CC) -c -o $@ $< $(CFLAGS)
-
-# hellomake: $(OBJ)
-# 	$(CC) -o $@ $^ $(CFLAGS)
